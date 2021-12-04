@@ -15,3 +15,16 @@ $con = new PDO('mysql:host='.DB_HOST.'dbname='.DB_NAME.'port=80', DB_USER, DB_PA
 $drivers = PDO::getAvailableDrivers();
 
 var_dump($drivers);
+
+
+
+
+// <?php
+// /* Connect to a MySQL database using driver invocation */
+// $dsn = 'mysql:dbname=testdb;host=127.0.0.1';
+// $user = 'dbuser';
+// $password = 'dbpass';
+
+// $dbh = new PDO($dsn, $user, $password);
+
+// ?>

@@ -9,4 +9,4 @@ $user = $con->query("SELECT * FROM users WHERE id = 1");
 
 $user = $user->fetch(PDO::FETCH_OBJ);
 
-echo $user->first_name;
+// echo $user->first_name;

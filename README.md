@@ -9,6 +9,8 @@ course link: https://www.udemy.com/course/php-with-pdo-ultimate-crash-course/lea
 
 Course director: Edwin Diaz (Udemy)
 
+Student - Joe Karl Magnussen
+
 content:
 
 1. Introduction

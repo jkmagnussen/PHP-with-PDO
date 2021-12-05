@@ -8,10 +8,12 @@ $id = 2;
 
 $user = $con->prepare("
     INSERT INTO users(first_name, username, email, active, password)
-    VALUES (:first, :usern, :email, : active, :pass )
+    VALUES (:first, :usern, :email, :active, :pass )
 ");
 
-$userExcution = $user->execute([
+
+
+$user->execute([
     
     'first' => 'Yosef',
     'usern' => 'JKM',

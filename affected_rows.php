@@ -6,8 +6,9 @@ $con = new PDO('mysql:host='.DB_HOST.'dbname='.DB_NAME.'port=80', DB_USER, DB_PA
 
 $id = 2;
 
-$users = $con->query("
-    SELECT * FROM users
+$update = $con->query("
+    UPDATE users SET first_name = 'Bobbert'
+    WHERE id = 4
 ");
 
-echo $users->rowCount();
+echo $update->rowCount();

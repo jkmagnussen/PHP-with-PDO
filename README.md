@@ -7,7 +7,7 @@ Students will learn how to use PDO with PHP and MySQL.
 
 course link: https://www.udemy.com/course/php-with-pdo-ultimate-crash-course/learn/lecture/4119792#overview
 
-Course director: Edwin Diaz
+Course director: Edwin Diaz (Udemy)
 
 content:
 
